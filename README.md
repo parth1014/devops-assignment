@@ -3,6 +3,7 @@
 This Terraform project provisions an EC2 instance on AWS to host a web application using Docker. It sets up the necessary network configurations, generates SSH key pairs, assigns security group rules, and optionally associates an Elastic IP.
 
 # 📁 Directory Structure
+```
 .
 ├── app
 │   ├── Dockerfile
@@ -27,7 +28,7 @@ This Terraform project provisions an EC2 instance on AWS to host a web applicati
 │   └── README.md
 ├── user_data.sh
 └── variables.tf
-
+```
 ---
 
 ## ⚙️ Prerequisites
