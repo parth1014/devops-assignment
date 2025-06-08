@@ -170,3 +170,23 @@ Important:
 
 For more details on IAM permissions, see the official docs:
 https://developer.hashicorp.com/terraform/language/backend/s3#s3-bucket-permissions
+
+## Usage
+
+1. Clone the repository:
+    ```
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+2. Initialize Terraform:
+    ```
+    terraform init
+    ```
+3. Review the execution plan:
+    ```
+    terraform plan
+    ```
+4. Apply the configuration:
+    ```
+    terraform apply
+    ```
