@@ -2,6 +2,32 @@
 
 This Terraform project provisions an EC2 instance on AWS to host a web application using Docker. It sets up the necessary network configurations, generates SSH key pairs, assigns security group rules, and optionally associates an Elastic IP.
 
+# 📁 Directory Structure
+.
+├── app
+│   ├── Dockerfile
+│   ├── main.py
+│   ├── README.md
+│   └── requirements.txt
+├── backend.tf
+├── main.tf
+├── modules
+│   └── ec2
+│       ├── ami.tf
+│       ├── ec2.tf
+│       ├── key-pair.tf
+│       ├── network.tf
+│       ├── outputs.tf
+│       ├── provisioners.tf
+│       └── variables.tf
+├── outputs.tf
+├── providers.tf
+├── README.md
+├── ssh_key_pair
+│   └── README.md
+├── user_data.sh
+└── variables.tf
+
 ---
 
 ## ⚙️ Prerequisites
